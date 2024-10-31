@@ -32,7 +32,7 @@
           uses: morphy2k/revive-action@v2.4.1
 
         - name: Staticcheck
-          uses: dominikh/staticcheck-action@latest
+          uses: dominikh/staticcheck-action@v1.2.0
         - name: Build
           run: |
             go mod download
